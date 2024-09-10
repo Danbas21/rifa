@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:rifa/core/functions/random.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:rifa/core/functions/upload_data.dart';
 import 'firebase_options.dart';
 import 'package:uuid/uuid.dart' as id;
 
@@ -89,6 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            const SizedBox(height: 200, width: 200, child: ImageScreen()),
             SizedBox(
               width: width,
               child: Padding(
