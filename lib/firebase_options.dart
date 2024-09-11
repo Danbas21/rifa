@@ -31,15 +31,9 @@ class DefaultFirebaseOptions {
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for windows - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return windows;
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -53,11 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC76_kPVH3w8OBLbSesZtXc5fk29Bl6eVA',
-    appId: '1:361113906689:web:44a2219e78453db00b1a00',
-    messagingSenderId: '361113906689',
-    projectId: 'rifafunfai',
-    authDomain: 'rifafunfai.firebaseapp.com',
-    storageBucket: 'rifafunfai.appspot.com',
+    apiKey: 'AIzaSyCrHQTVWPuyzobw1SbYmWwdENITsjesD-E',
+    appId: '1:212008922624:web:6302ddace53e3e413df2e5',
+    messagingSenderId: '212008922624',
+    projectId: 'rifa-funfai-e3985',
+    authDomain: 'rifa-funfai-e3985.firebaseapp.com',
+    storageBucket: 'rifa-funfai-e3985.appspot.com',
   );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyDvjOKL5Pr7yUN5lcwJSi_xRKIRsLktHmE',
+    appId: '1:212008922624:ios:8a03db03d3d34e113df2e5',
+    messagingSenderId: '212008922624',
+    projectId: 'rifa-funfai-e3985',
+    storageBucket: 'rifa-funfai-e3985.appspot.com',
+    iosBundleId: 'com.example.rifa',
+  );
+
+  static const FirebaseOptions windows = FirebaseOptions(
+    apiKey: 'AIzaSyCrHQTVWPuyzobw1SbYmWwdENITsjesD-E',
+    appId: '1:212008922624:web:9383c2c646e1294a3df2e5',
+    messagingSenderId: '212008922624',
+    projectId: 'rifa-funfai-e3985',
+    authDomain: 'rifa-funfai-e3985.firebaseapp.com',
+    storageBucket: 'rifa-funfai-e3985.appspot.com',
+  );
+
 }

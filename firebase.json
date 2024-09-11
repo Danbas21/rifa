@@ -1,1 +1,1 @@
-{"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"rifafunfai","configurations":{"web":"1:361113906689:web:44a2219e78453db00b1a00"}}}}}}
+{"hosting":{"public":"build/web","ignore":["firebase.json","**/.*","**/node_modules/**"],"rewrites":[{"source":"**","destination":"/index.html"}]},"flutter":{"platforms":{"dart":{"lib/firebase_options.dart":{"projectId":"rifa-funfai-e3985","configurations":{"macos":"1:212008922624:ios:8a03db03d3d34e113df2e5","web":"1:212008922624:web:6302ddace53e3e413df2e5","windows":"1:212008922624:web:9383c2c646e1294a3df2e5"}}}}}}

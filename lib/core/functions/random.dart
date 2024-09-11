@@ -1,7 +1,7 @@
 import 'dart:math';
 
 int counter = 0;
-List<int> _generatedNumbers = [];
+List<int> _generatedNumbers = [25, 27, 64, 37];
 
 getRandomNumber() {
   counter++;
@@ -9,9 +9,9 @@ getRandomNumber() {
 
   do {
     if (counter % 3 == 0) {
-      randomNumber = 1 + Random().nextInt(100);
+      randomNumber = 1 + Random().nextInt(150);
     } else {
-      randomNumber = 60 + Random().nextInt(61);
+      randomNumber = 75 + Random().nextInt(76);
     }
   } while (_generatedNumbers.contains(randomNumber) &&
       _generatedNumbers.length <= 120);
